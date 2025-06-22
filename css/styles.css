@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
 .all{
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -16,7 +22,19 @@ a:focus{
     text-decoration: none;
 }
 
+.container { 
+width: 1128px;
+padding-left:  156px;
+padding-right:  156px;
+margin: 0 auto; 
+border: 2px solid #2E2F42;
+}
+
 /*Стили логотипа*/
+
+.header{
+
+}
 
 .logo-full, 
 .logo-web{
@@ -75,14 +93,18 @@ a:focus{
 
 .hero-banner {
     background-color: #2E2F42;
+    width: 1128px;
+    margin: 0 auto;    
 }
+
 .hero-banner-text {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #FFFFFF
+    color: #FFFFFF;
+    padding-top: 188px;
 }
 
 .hero-banner-button:hover,
@@ -97,6 +119,15 @@ a:focus{
     letter-spacing: 0.04em;
     color: #FFFFFF;
     cursor: pointer;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    height: 56px;
+    width: 169px;
+    margin-bottom: 188px;
+}
+
+.button-diraction {
+    text-align: center;
+    padding-top: 48px;
 }
 
 /*Value*/
@@ -107,7 +138,7 @@ a:focus{
     color: #2e2f42;
 }
 .content-list {
-
+    display: flex;
 }
 .content-list-title {
     font-weight: 500;
@@ -115,13 +146,15 @@ a:focus{
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    padding-bottom: 8px;
 }
 .content-list-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455
+    color: #434455;
+
 }
 
 .team {
