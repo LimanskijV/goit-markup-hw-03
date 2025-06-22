@@ -23,7 +23,7 @@ a:focus{
 }
 
 .container { 
-width: 1128px;
+max-width: 1128px;
 padding-left:  156px;
 padding-right:  156px;
 margin: 0 auto; 
@@ -51,9 +51,23 @@ border: 2px solid #2E2F42;
     color: #2E2F42;
 }
 
+.logo {
+    margin-right: 76px;
+}
+
 /*Навигация*/
 
+.header-list,
+.navigation,
+.address {
+    display: flex;
+    align-items: center;
+}
+
+.address-list,
 .navigation-list{
+    display: flex;
+    gap: 40px;
 }
 
 .navigation-list-item:hover,
@@ -78,8 +92,7 @@ border: 2px solid #2E2F42;
     font-style: normal;
 }
 
-.address-list {
-}
+
 
 .address-list-style {
     line-weight: 1.5;
@@ -130,9 +143,10 @@ border: 2px solid #2E2F42;
     padding-top: 48px;
 }
 
-/*Value*/
+/*content*/
 
-.value {
+.content {
+    margin-top: 120px;
 }
 .content-title {
     color: #2e2f42;
@@ -159,7 +173,11 @@ border: 2px solid #2E2F42;
 
 .team {
     background-color: #F4F4FD;
-}
+    width: 1128px;
+    margin: 0 auto;
+    margin-top: 120px;
+ }
+
 .team-title {
     font-weight: 700;
     font-size: 36px;
@@ -168,12 +186,18 @@ border: 2px solid #2E2F42;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 120px;
 }
 .team-list {
+    padding-top: 72px;
+    display: flex;
+    padding-bottom: 120px;
+    gap: 24px;
 }
 
 .team-list-item{
     background-color: #FFFFFF;
+    max-width: 264px;
 }
 .team-photo {
 }
@@ -206,8 +230,16 @@ border: 2px solid #2E2F42;
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    padding-top: 120px;
 }
 .portfolio-list {
+    padding-top: 72px;
+    display: flex;
+    gap: 24px;
+}
+
+.portfolio-list li{
+    width: 360px;
 }
 .portfolio-image {
 }
@@ -231,6 +263,12 @@ border: 2px solid #2E2F42;
 
 .footer{
     background-color: #2E2F42;
+    width: 1128px;
+    margin: 0 auto;
+}
+
+.logo-footer{
+    padding-top: 100px;
 }
 
 .logo-footer-full{
@@ -253,4 +291,6 @@ border: 2px solid #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
+    padding-top: 16px;
+    padding-bottom: 100px;
 }
