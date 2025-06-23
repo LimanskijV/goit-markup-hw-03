@@ -144,8 +144,10 @@ margin: 0 auto;
     color: #FFFFFF;
     cursor: pointer;
     height: 56px;
-    width: 169px;
+    min-width: 169px;
     margin: 0 auto;
+    display: block;
+    border-radius: 4px;
 }
 
 /*content*/
