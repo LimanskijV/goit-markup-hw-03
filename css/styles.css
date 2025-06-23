@@ -127,6 +127,7 @@ margin: 0 auto;
     text-align: center;
     color: #FFFFFF;
     max-width: 496px;
+    margin: 0 auto;
     margin-bottom: 48px;
 }
 
@@ -145,11 +146,6 @@ margin: 0 auto;
     height: 56px;
     width: 169px;
     margin: 0 auto;
-}
-
-.button-diraction {
-    text-align: center;
-    padding-top: 48px;
 }
 
 /*content*/
