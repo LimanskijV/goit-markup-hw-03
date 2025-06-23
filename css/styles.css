@@ -154,11 +154,11 @@ margin: 0 auto;
 /*content*/
 
 .content {
-    padding-top: 120px 0;
+    padding: 120px 0;
 }
 .content-title {
     color: #2e2f42;
-    margin-bottom: 8px;
+ 
 }
 .content-list {
     display: flex;
@@ -170,11 +170,11 @@ margin: 0 auto;
 }
 .content-list-title {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 20px;s
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .content-list-text {
     font-weight: 400;
