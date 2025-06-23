@@ -208,9 +208,10 @@ margin: 0 auto;
 .team-list-item{
     background-color: #FFFFFF;
     width: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
 }
 .team-photo {
-    border-radius: 0 0 4px 4px;
+
 }
 .team-name {
     font-weight: 500;
@@ -231,7 +232,7 @@ margin: 0 auto;
 }
 
 .team-text-content{
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 /*Portfolio*/
