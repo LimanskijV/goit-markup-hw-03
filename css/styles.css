@@ -210,6 +210,7 @@ margin: 0 auto;
     width: calc((100% - 72px) / 4);
 }
 .team-photo {
+    border-radius: 0 0 4px 4px;
 }
 .team-name {
     font-weight: 500;
@@ -218,6 +219,7 @@ margin: 0 auto;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .team-position {
     font-weight: 400;
